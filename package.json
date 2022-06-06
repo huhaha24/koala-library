@@ -1,23 +1,24 @@
 {
+	"name": "koala-library",
+	"version": "1.0.0",
+	"private": true,
+	"description": "「考拉搜书」---- 电子书下载网站",
+	"dependencies": {
+		"cross-env": "^7.0.3",
+		"moment": "^2.29.3"
+	},
+	"scripts": {
+		"build:custom": "cross-env NODE_ENV=production uniapp-cli custom"
+	},
 	"uni-app": {
 		"scripts": {
-			"dev": {
-				"title": "dev",
-				"browser": "",
+			"h5-build": {
+				"title": "H5打包",
 				"env": {
-					"UNI_PLATFORM": "h5"
-				}
-			},
-			"prod": {
-				"title": "prod",
-				"browser": "",
-				"env": {
-					"UNI_PLATFORM": "h5"
+					"UNI_PLATFORM": "h5",
+					"UNI_OUTPUT_DIR": "docs/"
 				}
 			}
 		}
-	},
-	"dependencies": {
-		"moment": "^2.29.3"
 	}
 }
