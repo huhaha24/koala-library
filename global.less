@@ -1,0 +1,57 @@
+// 整体padding
+body {
+	margin: auto;
+}
+.container {
+	padding: .8rem;
+}
+
+// 字体相关
+.min-font {
+	font-size: .6rem;
+}
+
+.small-font {
+	font-size: .8rem;
+}
+
+.primary-font {
+	font-size: 1rem;
+}
+
+.large-font {
+	font-size: 1.2rem;
+}
+
+// 多余的内容用...代替
+.ellipsis-1 {
+	overflow: hidden;
+	text-overflow: ellipsis;
+	display: -webkit-box;
+	-webkit-line-clamp: 1; //多行在这里修改数字即可，这里显示3行
+	-webkit-box-orient: vertical;
+}
+
+.ellipsis-2 {
+	overflow: hidden;
+	text-overflow: ellipsis;
+	display: -webkit-box;
+	-webkit-line-clamp: 2; //多行在这里修改数字即可，这里显示3行
+	-webkit-box-orient: vertical;
+}
+
+/****** 自定义按钮 ******/
+.custom-btn {
+	background-color: #927A6E;
+	color: #fff;
+	margin: auto;
+	border-radius: 0.4rem;
+	font-size: 1rem;
+	padding: 0.4rem;
+	text-align: center;
+}
+
+/****** 对uni-ui的样式进行覆盖 ******/
+.is-required {
+	display: none;
+}

@@ -1,0 +1,23 @@
+{
+	"uni-app": {
+		"scripts": {
+			"dev": {
+				"title": "dev",
+				"browser": "",
+				"env": {
+					"UNI_PLATFORM": "h5"
+				}
+			},
+			"prod": {
+				"title": "prod",
+				"browser": "",
+				"env": {
+					"UNI_PLATFORM": "h5"
+				}
+			}
+		}
+	},
+	"dependencies": {
+		"moment": "^2.29.3"
+	}
+}
